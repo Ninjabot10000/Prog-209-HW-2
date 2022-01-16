@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="site.css">
     <title>Document</title>
 </head>
 <body>
-    <button id="start">Start</button>
-    <ul>
-        <li></li>
-    </ul>
-    <script src="script.js">
-        let fruit = []
+    <section id="firstScreen">
+        <h1>Swap first and last letters</h1>
+        <div id="buttonDisappear">
+            <button id="startBtn" onclick="promptUser()">Start</button>
+        </div>
+        <div id="grad1"> 
+            <div id="fruitul">
+            </div>
+            <button id="changeBtn">Change the words!</button>
+        </div>  
+    </section>
 
-let input = prompt("Add a fruit")
-for (let i = 0; i < 3; i++) {
-    fruit.push();
+    <section id="secondScreen">
+        <h1>Swap first and last letters</h1>
+        <div id="grad2">
+            <div id=fruitul2></div>
+        </div>
+    </section>
     
-}
-
-console.log
-
-    </script>
+    <script src="main.js"></script>
+    
 </body>
 </html>
