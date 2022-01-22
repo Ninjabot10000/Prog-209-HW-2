@@ -5,10 +5,10 @@
 
 #grad1 {
     margin-top:20px;
-    height:500px;
-    width:500px;
+    height:250px;
+    width:250px;
     background-color: red; 
-    background-image: linear-gradient(90deg,red, yellow); 
+    background-image: linear-gradient(90deg,blue, green); 
   }
   
   #secondScreen{
@@ -17,8 +17,12 @@
 
   #grad2 {
     margin-top:20px;
-    height:500px;
-    width:500px;
+    height:250px;
+    width:250px;
     background-color: yellow; 
-    background-image: linear-gradient(90deg,green, blue); 
+    background-image: linear-gradient(90deg,purple, yellow); 
   }
+
+#fruitul2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
